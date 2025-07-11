@@ -24,7 +24,7 @@ export interface ContractAddresses {
  */
 export const CHAIN_IDS: ChainIds = {
   TATARA: 471,
-  KATANA: 0
+  KATANA: 747474
 };
 
 /**
@@ -45,7 +45,7 @@ export const CONTRACT_ADDRESSES: ContractAddresses = {
   "DeterministicDeploymentProxy": { "tatara": "0x4e59b44847b379578588920cA78FbF26c0B4956C" as `0x${string}`, "katana": null },
   "Create2Deployer": { "tatara": "0x13b0D85CcB8bf860b6b79AF3029fCA081AE9beF2" as `0x${string}`, "katana": null },
   "CreateX": { "tatara": "0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed" as `0x${string}`, "katana": null },
-  "AUSD": { "tatara": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC" as `0x${string}`, "katana": null },
+  "AUSD": { "tatara": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC" as `0x${string}`, "katana": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a" },
   "WETH": { "tatara": "0x17B8Ee96E3bcB3b04b3e8334de4524520C51caB4" as `0x${string}`, "katana": null },
   "WETHNativeConverter": { "tatara": "0x3aFbD158CF7B1E6BE4dAC88bC173FA65EBDf2EcD" as `0x${string}`, "katana": null },
   "ybUSDC": { "tatara": "0xd8A986AFbB7e44e9F7D71cc529d7b28F7084028c" as `0x${string}`, "katana": null },

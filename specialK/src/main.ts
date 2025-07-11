@@ -162,9 +162,9 @@ function shortenAddress(address: string): string {
 }
 
 // Generic function to safely load contract data with fallback
-async function safeContractCall<T>(
+export async function safeContractCall<T>(
   callback: () => Promise<T>,
-  errorHandler: (error: any) => void
+  errorHandler: (error: unknown) => void
 ): Promise<T | null> {
   try {
     return await callback();
@@ -271,7 +271,7 @@ async function loadAUSDData() {
 }
 
 // Load WETH Token data
-async function loadWETHData() {
+export async function loadWETHData() {
   // Get WETH address
   const wethAddress = getContractAddress('WETH', TATARA_CHAIN_ID);
   if (!wethAddress) {
@@ -479,6 +479,6 @@ initialize();
 // Add window.ethereum type
 declare global {
   interface Window {
-    ethereum: any;
+    ethereum: unknown;
   }
 }
