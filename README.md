@@ -4,7 +4,7 @@
 
 This is simple example app using the template of specialK to make contracts and para to connect your wallet
 
-### First step to use Special K template: clone the repo and follow the steps included in [SpecialK](https://github.com/katana-network/specialk/blob/main/README.md)
+### First step to use Special K template and develop your contracts: clone the repo and follow the steps included in [SpecialK](https://github.com/katana-network/specialk/blob/main/README.md)
 
 ## For this app: 
 fork and clone this repo.
